@@ -13,4 +13,5 @@
     <color name="deep_green">#00C208</color>
     <color name="yellow">#FFF1A7</color>
     <color name="deep_yellow">#DCB900</color>
+    <color name="editText">#D9D9D9</color>
 </resources>

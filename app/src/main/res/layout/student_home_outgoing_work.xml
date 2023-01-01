@@ -100,8 +100,8 @@
                 android:id="@+id/icon"
                 android:layout_width="55dp"
                 android:layout_height="70dp"
-                android:layout_marginStart="7dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="16dp"
                 android:background="@color/red"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -113,9 +113,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="16dp"
                 android:text="Title"
                 android:textColor="@color/black"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/icon"
                 app:layout_constraintTop_toTopOf="parent"
@@ -126,7 +127,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="3dp"
                 android:layout_marginEnd="4dp"
                 android:maxLines="2"
                 android:text="Arduino Smart Temperature"
@@ -141,7 +142,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="3dp"
                 android:width="200dip"
                 android:ellipsize="end"
                 android:singleLine="true"
@@ -235,21 +236,20 @@
                 app:srcCompat="@drawable/proposal_report_icon"
                 tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
+
             <TextView
                 android:id="@+id/ongoing_icon_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="16dp"
                 android:text="Proposal Report"
                 android:textColor="@color/black"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/ongoing_icon"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="MissingConstraints" />
-
-
-
 
             <TextView
                 android:id="@+id/ongoing_date"
