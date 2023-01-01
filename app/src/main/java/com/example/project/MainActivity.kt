@@ -1,4 +1,4 @@
-package com.example.testing1
+package com.example.project
 
 import android.annotation.SuppressLint
 import android.graphics.Color
@@ -6,8 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.BaseColumns
 import android.widget.Button
-import android.database.Cursor
-import android.database.sqlite.SQLiteDatabase
+import com.example.project.R
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("Range")

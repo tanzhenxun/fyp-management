@@ -1,4 +1,4 @@
-package com.example.testing1
+package com.example.project
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.project.R
 
 class MyAdapter(context: Context, cursor: Cursor?) : CursorRecyclerViewAdapter<MyAdapter.ViewHolder>(context, cursor) {
 
